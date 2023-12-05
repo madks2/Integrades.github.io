@@ -10,10 +10,10 @@
   <!--- favicon-->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--- custom css link-->
+  <!-- Estilo personalizado para o css e js -->
   <link rel="stylesheet" href="./assets/css/style.css"> e <script src="./assets/js/script.js"></script>.
 
-  <!--- google font link-->
+  <!-- Google Fonts para usar a fonte 'Poppins' -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -21,16 +21,18 @@
 
 <body>
 
+  <!-- Área principal do site -->
   <!--- #MAIN-->
-
   <main>
 
-    <!--- #SIDEBAR-->
 
+    <!-- Barra lateral com informações pessoais -->
+    <!--- #SIDEBAR-->
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
+        <!-- foto e informações pessoais -->
         <figure class="avatar-box">
         <img src="assets/img/eu.jpeg" alt="Maria Eduarda" width="80">
         </figure>
@@ -41,6 +43,7 @@
             <p class="title">Estudante</p>
         </div>
 
+        <!-- Botão para mostrar mais informações -->
         <button class="info_more-btn" data-sidebar-btn>
             <span>Mostrar Contatos</span>
 
@@ -49,6 +52,7 @@
 
       </div>
 
+       <!-- informações adicionais -->
       <div class="sidebar-info_more">
 
         <div class="separator"></div>
@@ -57,10 +61,12 @@
 
           <li class="contact-item">
 
+            <!-- Ícone de e-mail -->
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
 
+             <!-- Informações de e-mail -->
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
@@ -113,10 +119,13 @@
 
         </ul>
 
+        <!-- Separador entre contatos e redes sociais -->
         <div class="separator"></div>
 
+        <!-- Lista de redes sociais -->
         <ul class="social-list">
 
+          <!-- Ícones de redes sociais -->
           <li class="social-item">
             <a href="https://www.facebook.com/mariaeduarda.silva.925" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
@@ -144,37 +153,29 @@
 
 
 
-
+ <!-- Área principal do conteúdo -->
     <!---#main-content-->
 
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
+
+    <!-- Barra de navegação com links para diferentes seções -->
+      <!--- #NAVBAR-->
 
       <nav class="navbar">
 
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link  active" data-nav-link>Portifólio</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link>Trabalhos</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
+            <button class="navbar-link" data-nav-link>Tecnologia</button>
           </li>
 
         </ul>
@@ -184,11 +185,12 @@
 
 
 
-
+<!-- Pagina "Sobre Mim" -->
       <!---#ABOUT-->
 
       <article class="about  active" data-page="about">
 
+        <!-- Título -->
         <header>
           <h2 class="h2 article-title">Sobre mim</h2>
         </header>
@@ -212,7 +214,7 @@
               <div class="icon-box">
                 <ion-icon name="book-outline"></ion-icon>
               </div>
-  
+     <!-- Linha do tempo da experiência educacional -->
               <h3 class="h3">Experiência educacional</h3>
             </div>
   
@@ -220,43 +222,26 @@
   
               <li class="timeline-item">
   
-                <h4 class="h4 timeline-item-title">Creative director</h4>
-  
-                <span>2015 — Present</span>
-  
-                <p class="timeline-text">
-                  Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                  molestias
-                  exceptur.
-                </p>
-  
-              </li>
-  
-              <li class="timeline-item">
-  
                 <h4 class="h4 timeline-item-title">Senac Nações Unidas</h4>
   
-                <span>2021 — 2023</span>
-  
-                <p class="timeline-text">
-                  Realização de manutenção e montagem de computadores, Instalação de redes locais e sistemas operacionais, 
-                  programação e aplicação de normas técnicas para segurança de equipamentos e sistemas
-                </p>
+                <span>2021-2023</span>
   
               </li>
   
               <li class="timeline-item">
   
-                <h4 class="h4 timeline-item-title">Web designer</h4>
+                <h4 class="h4 timeline-item-title">Monte Castelo</h4>
   
-                <span>2010 — 2013</span>
+                <span>2018-2020</span>
   
-                <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                  quas molestias
-                  exceptur.
-                </p>
+              </li>
   
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Objetiivo</h4>
+  
+                <span>2016-2018</span>
+
               </li>
   
             </ol>
@@ -281,6 +266,7 @@
           <h2 class="h2 article-title">Trabalhos</h2>
         </header>
 
+           <!-- Lista de categorias para filtrar os trabalhos -->
         <section class="projects">
 
           <ul class="filter-list">
@@ -307,6 +293,7 @@
 
       </ul>
 
+      <!-- Caixa de seleção e lista de categorias -->
       <div class="filter-select-box">
 
         <button class="filter-select" data-select>
@@ -318,7 +305,8 @@
           </div>
 
         </button>
-
+  
+        <!-- Lista de opções para a caixa de seleção -->
         <ul class="select-list">
 
           <li class="select-item">
@@ -353,20 +341,26 @@
 
       </div>
 
+      <!-- Lista de projetos -->
       <ul class="project-list">
 
+        <!-- Cada projeto com título, categoria e link -->
         <li class="project-item" data-filter-item data-category="ciências da natureza">
           <a href="#">
 
               <a href="assets/img/planta medicinal 1.pdf" target="_blank">
+                <!-- visualização do projeto -->
               <figure class="project-img">
+                <!-- Ícone de olho para visualização -->
               <div class="project-item-icon-box">
                 <ion-icon name="eye-outline"></ion-icon>
               </div>
 
+              <!-- Conteúdo do projeto, como PDF ou imagem -->
               <embed src="assets/img/planta medicinal 1.pdf" alt="Atividade Plantas Medicinais" loading="lazy">
             </figure>
-
+ 
+            <!-- Título e categoria do projeto -->
             <h3 class="project-title">Atividade Plantas Medicinais</h3>
 
             <p class="project-category">Biologia</p>
@@ -558,21 +552,24 @@
 
 
 
-
+<!-- Pagina do blog -->
       <!--- #BLOG-->
 
       <article class="blog" data-page="blog">
 
+        <!-- Cabeçalho do artigo -->
         <header>
           <h2 class="h2 article-title">Paginas Tecnologicas</h2>
         </header>
 
         <!---service-->
 
+        <!-- Seção de serviços -->
         <section class="service">
 
           <ul class="service-list">
 
+            <!-- Serviço 1: Realidade Virtual -->
             <li class="service-item">
 
               <div class="service-content-box">
@@ -604,9 +601,6 @@
 
         <!---testimonials-->
    <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="IOT" width="60" data-testimonials-avatar>
-                </figure>
-
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>IOT</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
@@ -621,10 +615,6 @@
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Ciência de Dados" width="60" data-testimonials-avatar>
-                </figure>
-
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Ciência de Dados</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
@@ -638,10 +628,6 @@
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Realidade Aumentada" width="60" data-testimonials-avatar>
-                </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Realidade Aumentada</h4>
 
@@ -708,14 +694,10 @@
           </div>
 
 
-  <!--
-    - custom js link
-  -->
+  <!-- JavaScript personalizado -->
   <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
+ <!-- Ícones Ionicons -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
