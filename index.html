@@ -1,706 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Integrada</title>
-
-  <!--- favicon-->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!-- Estilo personalizado para o css e js -->
-  <link rel="stylesheet" href="./assets/css/style.css"> e <script src="./assets/js/script.js"></script>.
-
-  <!-- Google Fonts para usar a fonte 'Poppins' -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!-- Área principal do site -->
-  <!--- #MAIN-->
-  <main>
-
-
-    <!-- Barra lateral com informações pessoais -->
-    <!--- #SIDEBAR-->
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <!-- foto e informações pessoais -->
-        <figure class="avatar-box">
-        <img src="assets/img/eu.jpeg" alt="Maria Eduarda" width="80">
-        </figure>
-
-        <div class="info-content">
-            <h1 class="name" title="Maria Eduarda">Maria Eduarda Maklouf</h1>
-
-            <p class="title">Estudante</p>
-        </div>
-
-        <!-- Botão para mostrar mais informações -->
-        <button class="info_more-btn" data-sidebar-btn>
-            <span>Mostrar Contatos</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-       <!-- informações adicionais -->
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <!-- Ícone de e-mail -->
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-             <!-- Informações de e-mail -->
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:makloufduda@gmail.com" class="contact-link">makloufduda@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Telefone</p>
-
-              <a href="tel:+5511972395670" class="contact-link">+55 (11)94669-2343</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-                <p class="contact-title">Aniversário</p>
-
-              <time datetime="2022-02-23">23 de feveriro de 2006</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-                <p class="contact-title">Localização</p>
-
-                <address>São Paulo, SP, Brasil</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <!-- Separador entre contatos e redes sociais -->
-        <div class="separator"></div>
-
-        <!-- Lista de redes sociais -->
-        <ul class="social-list">
-
-          <!-- Ícones de redes sociais -->
-          <li class="social-item">
-            <a href="https://www.facebook.com/mariaeduarda.silva.925" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.twitter.com/macadumes" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/m4dkomode" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
- <!-- Área principal do conteúdo -->
-    <!---#main-content-->
-
-    <div class="main-content">
-
-
-    <!-- Barra de navegação com links para diferentes seções -->
-      <!--- #NAVBAR-->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Portifólio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Trabalhos</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Tecnologia</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-<!-- Pagina "Sobre Mim" -->
-      <!---#ABOUT-->
-
-      <article class="about  active" data-page="about">
-
-        <!-- Título -->
-        <header>
-          <h2 class="h2 article-title">Sobre mim</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Olá, sou Maria Eduarda, apaixonado por futebol, livros, música e cozinhar.
-            Durante dois a três anos, participei ativamente das competições de interclasse de handebol e futebol,
-            alimentando minha paixão pelo esporte.
-          </p>
-
-          <p>
-            Apesar do meu lado criativo, tenho um lado organizado bem desenvolvido. 
-            Adoro manter as coisas em ordem, definir prioridades e garantir que tudo esteja no seu devido lugar. 
-          </p>
-        </section>
-
-        <section class="timeline">
-
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-     <!-- Linha do tempo da experiência educacional -->
-              <h3 class="h3">Experiência educacional</h3>
-            </div>
-  
-            <ol class="timeline-list">
-  
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Senac Nações Unidas</h4>
-  
-                <span>2021-2023</span>
-  
-              </li>
-  
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Monte Castelo</h4>
-  
-                <span>2018-2020</span>
-  
-              </li>
-  
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Objetiivo</h4>
-  
-                <span>2016-2018</span>
-
-              </li>
-  
-            </ol>
-  
-          </section>
-  
-          </div>
-              </li>
-  
-            </ul>
-  
-          </section>
-  
-        </article>
-
-
-      <!--- #PORTFOLIO-->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Trabalhos</h2>
-        </header>
-
-           <!-- Lista de categorias para filtrar os trabalhos -->
-        <section class="projects">
-
-          <ul class="filter-list">
-
-           
-            <button data-filter-btn>Ciências Humanas</button>
-        </li>
-
-        <li class="filter-item">
-          <button data-filter-btn>Linguagens</button>
-        </li>
-
-        <li class="filter-item">
-          <button data-filter-btn>Matemática</button>
-        </li>
-
-        <li class="filter-item">
-          <button data-filter-btn>Projeto do Ano</button>
-        </li>
-
-        <li class="filter-item">
-          <button data-filter-btn>T.I</button>
-        </li>
-
-      </ul>
-
-      <!-- Caixa de seleção e lista de categorias -->
-      <div class="filter-select-box">
-
-        <button class="filter-select" data-select>
-
-          <div class="select-value" data-selecct-value>Selecionar Categoria</div>
-
-          <div class="select-icon">
-            <ion-icon name="chevron-down"></ion-icon>
-          </div>
-
-        </button>
-  
-        <!-- Lista de opções para a caixa de seleção -->
-        <ul class="select-list">
-
-          <li class="select-item">
-            <button data-select-item>Todos</button>
-          </li>
-
-          <li class="select-item">
-            <button data-select-item>Ciências da Natureza</button>
-          </li>
-
-          <li class="select-item">
-            <button data-select-item>Ciências Humanas</button>
-          </li>
-
-          <li class="select-item">
-            <button data-select-item>Linguagens</button>
-          </li>
-
-          <li class="select-item">
-              <button data-select-item>Matemática</button>
-            </li>
-
-          <li class="select-item">
-              <button data-select-item>Projeto do Ano</button>
-          </li>
-
-          <li class="select-item">
-              <button data-select-item>T.I</button>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <!-- Lista de projetos -->
-      <ul class="project-list">
-
-        <!-- Cada projeto com título, categoria e link -->
-        <li class="project-item" data-filter-item data-category="ciências da natureza">
-          <a href="#">
-
-              <a href="assets/img/planta medicinal 1.pdf" target="_blank">
-                <!-- visualização do projeto -->
-              <figure class="project-img">
-                <!-- Ícone de olho para visualização -->
-              <div class="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
-              </div>
-
-              <!-- Conteúdo do projeto, como PDF ou imagem -->
-              <embed src="assets/img/planta medicinal 1.pdf" alt="Atividade Plantas Medicinais" loading="lazy">
-            </figure>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrada</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons - Link para a biblioteca de ícones-->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
  
-            <!-- Título e categoria do projeto -->
-            <h3 class="project-title">Atividade Plantas Medicinais</h3>
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <header>
+      <!-- Logo -->
+        <a href="#" class="logo">Mak</a>
+ 
+        <!-- Ícone do menu para dispositivos móveis -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <!-- Lista de navegação -->
+        <ul class="navbar">
+            <li><a href="#portifólio">Portifólio</a></li>
+            <li><a href="#trabalhos">Trabalhos</a></li>
+            <li><a href="#tecnologia">Tecnologia</a></li>
+        </ul>
+    </header>
+    <!-- Sobre -->
+ 
+    <section class="portifólio" id="portifólio">
+      <!-- Imagem e texto de apresentação -->
+        <div class="home-img">
+            <img src="img/profile.png" alt="">
+        </div>
+        <div class="home-text">
+            <span>Olá, sou</span>
+            <h1>Maria Eduarda Maklouf</h1>
+            <h2>estudante de T.I na reta final do ensino médio.</h2>
+            <p>Esse site tem como objetivo mostrar minhas habilidades desenvolvidas ao longo de 2023. <br> ullam?</p>
+            <a href="#contact" class="btn">Contate-me</a>
+        </div>
+ 
+    <!-- About - informações sobre mim-->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Sobre</h2>
+            <span>mim</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+                <img src="assets/img/eu.jpeg" alt="">
+            </div>
+            <div class="about-text">
+              <p>
+                Olá, sou Maria Eduarda, apaixonado por futebol, livros, música e cozinhar.
+                Durante dois a três anos, participei ativamente das competições de interclasse de handebol e futebol,
+                alimentando minha paixão pelo esporte.
+              </p>
+ 
+              <p>
+                Apesar do meu lado criativo, tenho um lado organizado bem desenvolvido.
+                Adoro manter as coisas em ordem, definir prioridades e garantir que tudo esteja no seu devido lugar.
+              </p>
+ 
+               <!-- Informações de contato -->
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user' ></i>
+                        <span>Maria Eduarda Maklouf</span>
+                    </div>
+                    <!-- Box 2 - Telefone -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone' ></i>
+                        <span>+55 (11)94669-2343</span>
+                    </div>
+                    <!-- Box 3 - E-mail -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope' ></i>
+                        <span>makloufduda@gmail.com</span>
+                    </div>
+                </div>
+                <!-- Botão para baixar currículo -->
+                <a href="#" class="btn">Baixar Curriculo</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Áreas de T.I</h2>
+            <span>que domino</span>
+        </div>
+        <!-- Skills Content -->
+        <!-- Conteúdo de habilidades -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- Box 1 - Office 365 -->
+                <div class="bars-box">
+                    <h3>Office 365</h3>
+                    <span>100%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <!-- Box 2 - JavaScript -->
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>74%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+               <!-- Box 3 - Html/Css -->
+                <div class="bars-box">
+                    <h3>Html/Css</h3>
+                    <span>59%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+            <div class="skills-img">
+                <img src="img/skills.png" alt="">
+            </div>
+        </div>
+ 
+    </section>
+ 
+    <!-- Trabalhos -->
+    <section class="trabalhos" id="trabalhos">
+      <div class="heading">
+          <h2>Trabalhos</h2>
+          <span>que realizei</span>
+      </div>
+      <div class="services-content">
+          <!-- Box 1 -->
+          <div class="services-box">
+              <h3>Ciências da natureza</h3>
+          <a href="assets/img/interestelar.pdf" target="_blank" title="Learn More about Ciências da Natureza">Ver</a>
+        </div>
+          <!-- Box 2 -->
+          <div class="services-box">
+              <h3>Ciencias Humanas</h3>
+              <a href="assets/img/quadrinhos sobre dminio geopolitico.pdf" target="_blank" title="Learn More about Ciências Humanas">Ver</a>
+        </div>
+          <!-- Box 3 -->
+          <div class="services-box">
+              <h3>Linguagens</h3>
+              <a href="https://heyzine.com/flip-book/cbc626573d.html?classId=efe1a7bd-5741-4a26-9acd-9dee0088d6db&assignmentId=6f0e0ff3-1f85-4f8d-b41d-0145bbd518ba&submissionId=9ca13637-b42d-5e47-f98f-67f37106b499" target="_blank" title="Learn More about Linguagens">Ver</a>
+            </div>
+          <!-- Box 4 -->
+          <div class="services-box">
+            <h3>Matemática</h3>
+            <a href="assets/img/Atividade Quebrando a Banca.pdf" target="_blank" title="Learn More about Matemática">Ver</a>
+          </div>
+        <!-- Box 5 -->
+        <div class="services-box">
+          <h3>Projeto do ano</h3>
+          <a href="https://www.canva.com/design/DAFNGHmmCEg/3uxpo3P_hYzwtD87yj_o2g/edit?utm_content=DAFNGHmmCEg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" title="Learn More about Projeto do ano">Ver</a>
+        </div>
+      <!-- Box 6 -->
+      <div class="services-box">
+        <h3>T.I</h3>
+        <a href="assets/img/JavaApplication1.java" target="_blank" title="Learn More about T.I">Ver</a>
+      </div>
+      </div>
+  </section>
 
-            <p class="project-category">Biologia</p>
 
-          </a>
-        </li>
+  <!-- Tecnologia -->
+  <section class="tecnologia" id="tecnologia">
+      <div class="heading">
+          <h2>Páginas</h2>
+          <span>tecnológicas</span>
 
-        <li class="project-item  active" data-filter-item data-category="ciências da natureza">
-          <a href="#">
+          <li class="tecnologia-item">
+            <div class="content-card" data-tecnologia-item>
 
-              <a href="assets/img/interestelar.pdf" target="_blank">
-              <figure class="project-img">
-              <div class="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <h4 class="h4 tecnologia-item-title" data-tecnologia-title>Realidade Virtual</h4>
+
+              <div class="tecnologia-text" data-tecnologia-text>
+                <p>
+                    A Realidade Virtual (RV) é uma tecnologia que cria ambientes virtuais simulando o mundo real, sendo comum no ambiente corporativo. Por meio de dispositivos tecnológicos, como headsets, ela projeta elementos do mundo físico no meio digital em tempo real, proporcionando imersão total. Seus benefícios incluem vantagem competitiva, acompanhamento da evolução da indústria e baixo custo inicial. A RV funciona por estímulos visuais e auditivos, isolando o usuário de estímulos externos para uma experiência mais realista, como exemplificado pelo PlayStation VR da Sony.
+                </p>
               </div>
 
-              <embed src="assets/img/interestelar.pdf" alt="interestelar" loading="lazy">
-            </figure>
+            </div>
+          </li>
 
-            <h3 class="project-title">Interestelar</h3>
+          <li class="tecnologia-item">
+            <div class="content-card" data-tecnologia-item>
 
-            <p class="project-category">Física</p>
+              <h4 class="h4 tecnologia-item-title" data-tecnologia-title>AI</h4>
 
-          </a>
-        </li>
-
-          </a>
-        </li>
-
-        <li class="project-item  active" data-filter-item data-category="ciências humanas">
-          <a href="#">
-
-          <a href="assets/img/quadrinhos sobre dminio geopolitico.pdf" target="_blank">
-              <figure class="project-img">
-              <div class="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
+              <div class="tecnologia-text" data-tecnologia-text>
+                <p>
+                    A Inteligência Artificial (IA) é um campo da ciência da computação que busca desenvolver máquinas capazes de imitar o comportamento humano em decisões e tarefas. Essa tecnologia, conhecida pela sigla IA, funciona coletando e combinando grandes volumes de dados para identificar padrões usando algoritmos pré-programados. Exemplos cotidianos incluem assistentes de voz, mecanismos de pesquisa, carros autônomos e redes sociais. A IA impacta profundamente a vida das pessoas, transformando a maneira como trabalham, aprendem e interagem com o mundo ao redor.
+                </p>
               </div>
 
-              <embed src="assets/img/quadrinhos sobre dminio geopolitico.pdf" alt="quadrinhos geopolíticos" loading="lazy">
-            </figure>
-
-            <h3 class="project-title">Quadrinhos Geopolíticos</h3>
-
-            <p class="project-category">Geografia e Filosofia</p>
-
-          </a>
-        </li>
-
-        <li class="project-item  active" data-filter-item data-category="ciências humanas">
-          <a href="#">
-              
-          <a href="assets/img/Documento de Posicionamento Oficial (DPO).pdf" target="_blank">
-            <figure class="project-img">
-              <div class="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
-              </div>
-
-              <embed src="assets/img/Documento de Posicionamento Oficial (DPO).pdf" alt="simulação da onu - integrada do 4º bimestre
-              " loading="lazy">
-            </figure>
-
-            <h3 class="project-title">Simulação da ONU - Integrada do 4º Bimestre
-          </h3>
-
-            <p class="project-category">Ciências Humanas</p>
-
-          </a>
-        </li>
+            </div>
+          </li>
 
       
+        <li class="tecnologia-item">
+        <div class="content-card" data-tecnologia-item>
 
-        <li class="project-item  active" data-filter-item data-category="linguagens">
-          <a href="#">
+          <h4 class="h4 tecnologia-item-title" data-tecnologia-title>IOT</h4>
 
-          <a href="assets/img/logo .pdf" target="_blank">
-            <figure class="project-img">
-              <div class="project-item-icon-box">
-                <ion-icon name="eye-outline"></ion-icon>
-              </div>
+          <div class="tecnologia-text" data-tecnologia-text>
+            <p>
+                A Internet das Coisas (IOT) é uma rede de objetos conectados à internet, capazes de coletar e compartilhar dados. Ela tem aplicações em vários setores, como indústria, saúde e uso doméstico. No entanto, a IoT também apresenta desafios, incluindo questões de privacidade e segurança, e a necessidade de padrões de interoperabilidade. Com o avanço da tecnologia, espera-se que a IoT se torne cada vez mais sofisticada e prevalente.
+            </p>
+          </div>
 
-              <embed src="assets/img/logo .pdf" alt="phrasal verbs, imperative verbs and advertising" loading="lazy">
-            </figure>
-
-            <h3 class="project-title">Phrasal verbs, imperative verbs and advertising</h3>
-
-            <p class="project-category">Inglês</p>
-
-          </a>
-        </li>
-
-
-        <li class="project-item  active" data-filter-item data-category="linguagens">
-          <a href="#">
-        <a href="https://heyzine.com/flip-book/cbc626573d.html?classId=efe1a7bd-5741-4a26-9acd-9dee0088d6db&assignmentId=6f0e0ff3-1f85-4f8d-b41d-0145bbd518ba&submissionId=9ca13637-b42d-5e47-f98f-67f37106b499" target="_blank">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-
-            <embed src="assets/img/Uma passagem para a liberdade.pdf" alt="atividade integrada - 4º bi" loading="lazy">
-          </figure>
-
-          <h3 class="project-title">Atividade Integrada - 4º BI</h3>
-
-          <p class="project-category">Linguagens</p>
-
-        </a>
+        </div>
       </li>
 
-      <li class="project-item  active" data-filter-item data-category="matemática">
-        <a href="#">
-      <a href="c:\Users\arthu\Downloads\Atividade Quebrando a Banca.pdf" target="_blank">
-        <figure class="project-img">
-          <div class="project-item-icon-box">
-            <ion-icon name="eye-outline"></ion-icon>
-          </div>
+          <li class="tecnologia-item">
+            <div class="content-card" data-tecnologia-item>
 
-          <embed src="assets/img/Atividade Quebrando a Banca.pdf" alt="quebrando a banca" loading="lazy">
-        </figure>
+              <h4 class="h4 tecnologia-item-title" data-tecnologia-title>Ciência de Dados</h4>
 
-        <h3 class="project-title">Quebrando a banca</h3>
-
-        <p class="project-category">Matemática</p>
-
-      </a>
-    </li>
-
-    <li class="project-item  active" data-filter-item data-category="projeto do ano">
-      <a href="#">
-    <a href="https://www.canva.com/design/DAFNGHmmCEg/3uxpo3P_hYzwtD87yj_o2g/edit?utm_content=DAFNGHmmCEg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
-      <figure class="project-img">
-        <div class="project-item-icon-box">
-          <ion-icon name="eye-outline"></ion-icon>
-        </div>
-
-        <embed src="assets/img/Voop - relato do ano.pdf" alt="apresentação voop" loading="lazy">
-      </figure>
-
-      <h3 class="project-title">Apresentação voop</h3>
-
-      <p class="project-category">Projeto do ano</p>
-
-    </a>
-  </li>
-
-  <li class="project-item  active" data-filter-item data-category="t.i">
-    <a href="#">
-  <a href="assets/img/Main.java" target="_blank">
-    <figure class="project-img">
-      <div class="project-item-icon-box">
-        <ion-icon name="eye-outline"></ion-icon>
-      </div>
-
-      <embed src="assets/img/java2.0.pdf" alt="algoritimo tabuada" loading="lazy">
-    </figure>
-
-    <h3 class="project-title">Algoritimo Tabuada</h3>
-
-    <p class="project-category">T.I</p>
-
-  </a>
-</li>
-
-<li class="project-item  active" data-filter-item data-category="t.i">
-  <a href="#">
-<a href="assets/img/JavaApplication1.java" target="_blank">
-  <figure class="project-img">
-    <div class="project-item-icon-box">
-      <ion-icon name="eye-outline"></ion-icon>
-    </div>
-
-    <embed src="assets/img/java.pdf" alt="calculadora" loading="lazy">
-  </figure>
-
-  <h3 class="project-title">Calculadora</h3>
-
-  <p class="project-category">T.I</p>
-
-</a>
-</li>
-    
-      </ul>
-
-    </section>
-
-
-      </article>
-
-
-
-
-<!-- Pagina do blog -->
-      <!--- #BLOG-->
-
-      <article class="blog" data-page="blog">
-
-        <!-- Cabeçalho do artigo -->
-        <header>
-          <h2 class="h2 article-title">Paginas Tecnologicas</h2>
-        </header>
-
-        <!---service-->
-
-        <!-- Seção de serviços -->
-        <section class="service">
-
-          <ul class="service-list">
-
-            <!-- Serviço 1: Realidade Virtual -->
-            <li class="service-item">
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Realidade Virtual</h4>
-
-                <p class="service-item-text">
-                  A Realidade Virtual (RV) é uma tecnologia que cria ambientes virtuais simulando o mundo real, sendo comum no ambiente corporativo. Por meio de dispositivos tecnológicos, como headsets, ela projeta elementos do mundo físico no meio digital em tempo real, proporcionando imersão total. Seus benefícios incluem vantagem competitiva, acompanhamento da evolução da indústria e baixo custo inicial. A RV funciona por estímulos visuais e auditivos, isolando o usuário de estímulos externos para uma experiência mais realista, como exemplificado pelo PlayStation VR da Sony.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI</h4>
-
-                <p class="service-item-text">
-                  A Inteligência Artificial (IA) é um campo da ciência da computação que busca desenvolver máquinas capazes de imitar o comportamento humano em decisões e tarefas. Essa tecnologia, conhecida pela sigla IA, funciona coletando e combinando grandes volumes de dados para identificar padrões usando algoritmos pré-programados. Exemplos cotidianos incluem assistentes de voz, mecanismos de pesquisa, carros autônomos e redes sociais. A IA impacta profundamente a vida das pessoas, transformando a maneira como trabalham, aprendem e interagem com o mundo ao redor.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!---testimonials-->
-   <figure class="testimonials-avatar-box">
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>IOT</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    A Internet das Coisas (IOT) é uma rede de objetos conectados à internet, capazes de coletar e compartilhar dados. Ela tem aplicações em vários setores, como indústria, saúde e uso doméstico. No entanto, a IoT também apresenta desafios, incluindo questões de privacidade e segurança, e a necessidade de padrões de interoperabilidade. Com o avanço da tecnologia, espera-se que a IoT se torne cada vez mais sofisticada e prevalente.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ciência de Dados</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    A Ciência de Dados é uma área que usa técnicas de várias disciplinas, como computação, estatística e matemática, para resolver problemas complexos com grandes conjuntos de dados. Ela integra matemática, estatística, programação, análise avançada, IA e aprendizado de máquina para extrair insights valiosos dos dados. É essencial nas organizações modernas, pois ajuda a capturar, armazenar, processar e analisar dados para agregar valor aos negócios.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Realidade Aumentada</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    A Realidade Aumentada (RA) integra conteúdo virtual em cenários reais usando câmeras. Diferente da Realidade Virtual, permite interação com objetos virtuais no mundo real. Seus componentes incluem câmeras, sensores, computação e Inteligência Artificial. A RA transforma a forma como trabalhamos, aprendemos e nos conectamos, oferecendo uma maneira única de visualizar coisas difíceis de ver de outra forma.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!---testimonials modal-->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Realidade Virtual" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Realidade Virtual</h4>
-
-              <time datetime="2023-12-01">1 de dezembro de 2023</time>
-
-              <div data-modal-text>
+              <div class="tecnologia-text" data-tecnologia-text>
                 <p>
-                  A Realidade Virtual (RV) é uma tecnologia que cria ambientes virtuais simulando o mundo real, sendo comum no ambiente corporativo. Por meio de dispositivos tecnológicos, como headsets, ela projeta elementos do mundo físico no meio digital em tempo real, proporcionando imersão total. Seus benefícios incluem vantagem competitiva, acompanhamento da evolução da indústria e baixo custo inicial. A RV funciona por estímulos visuais e auditivos, isolando o usuário de estímulos externos para uma experiência mais realista, como exemplificado pelo PlayStation VR da Sony.
+                  A Ciência de Dados é uma área que usa técnicas de várias disciplinas, como computação, estatística e matemática, para resolver problemas complexos com grandes conjuntos de dados. Ela integra matemática, estatística, programação, análise avançada, IA e aprendizado de máquina para extrair insights valiosos dos dados. É essencial nas organizações modernas, pois ajuda a capturar, armazenar, processar e analisar dados para agregar valor aos negócios.
                 </p>
               </div>
 
             </div>
+          </li>
 
-          </section>
+          <li class="tecnologia-item">
+            <div class="content-card" data-tecnologia-item>
 
+              <h4 class="h4 testimonials-item-title" data-tecnologia-title>Realidade Aumentada</h4>
+
+              <div class="testimonials-text" data-tecnologia-text>
+                <p>
+                  A Realidade Aumentada (RA) integra conteúdo virtual em cenários reais usando câmeras. Diferente da Realidade Virtual, permite interação com objetos virtuais no mundo real. Seus componentes incluem câmeras, sensores, computação e Inteligência Artificial. A RA transforma a forma como trabalhamos, aprendemos e nos conectamos, oferecendo uma maneira única de visualizar coisas difíceis de ver de outra forma.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="tecnologia-item">
+            <div class="content-card" data-tecnologia-item>
+
+              <h4 class="h4 tecnologia-item-title" data-tecnologia-title>Realidade Virtual</h4>
+
+              <div class="tecnologia-text" data-tecnologia-text>
+                <p>
+                    A Realidade Virtual (RV) é uma tecnologia que cria ambientes virtuais simulando o mundo real, sendo comum no ambiente corporativo. Por meio de dispositivos tecnológicos, como headsets, ela projeta elementos do mundo físico no meio digital em tempo real, proporcionando imersão total. Seus benefícios incluem vantagem competitiva, acompanhamento da evolução da indústria e baixo custo inicial. A RV funciona por estímulos visuais e auditivos, isolando o usuário de estímulos externos para uma experiência mais realista, como exemplificado pelo PlayStation VR da Sony
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+    
+
+          
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contate-me</h2>
+            <span> com qualquer dúvida</span>
         </div>
-
-      </article>
-        <section class="testimonials">
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-          </div>
-
-
-  <!-- JavaScript personalizado -->
-  <script src="./assets/js/script.js"></script>
-
- <!-- Ícones Ionicons -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Seu nome">
+                <input type="email" name="" id="" placeholder="Seu email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea>
+                <input type="button" value="Enviar" class="contact-button">
+            </form>
+        </div>
+    </section>
+ 
+    <!-- Footer -->
+    <div class="footer">
+      <!-- Título do Rodapé -->
+      <h2>Redes Sociais</h2>
+     
+      <!-- Links das Redes Sociais no Rodapé -->
+      <div class="footer-social">
+          <!-- Link do Facebook -->
+          <a href="https://www.facebook.com/mariaeduarda.silva.925" target="_blank" title="Facebook">
+              <i class='bx bxl-facebook'></i>
+          </a>
+         
+          <!-- Link do Twitter -->
+          <a href="https://www.twitter.com/macadumes" target="_blank" title="Twitter">
+              <i class='bx bxl-twitter'></i>
+          </a>
+         
+          <!-- Link do Instagram -->
+          <a href="https://www.instagram.com/m4dkomode" target="_blank" title="Instagram">
+              <i class='bx bxl-instagram'></i>
+          </a>
+      </div>
+  </div>
+ 
+ 
+ 
+    <!-- Link To JS -->
+    <script src="main.js"></script>
 </body>
-
 </html>
